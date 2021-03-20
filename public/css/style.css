@@ -7,9 +7,8 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-
 }
-h2{
+h2 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   margin: 0 0 20px 0;
@@ -17,7 +16,7 @@ h2{
   font-size: 36px;
   color: rgb(255, 0, 0);
 }
-.h3{
+.h3 {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -41,7 +40,8 @@ p.intro {
   margin: 12px 0 0;
   line-height: 24px;
 }
-a, button {
+a,
+button {
   color: #fd6060;
   font-weight: 400;
 }
@@ -93,7 +93,8 @@ hr {
   width: 100%;
 }
 
-#menu.navbar-default .navbar-nav > li > a,button {
+#menu.navbar-default .navbar-nav > li > a,
+button {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
@@ -173,7 +174,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right,  #fd6060 0%, #c93535 100%);
+  background-image: linear-gradient(to right, #fd6060 0%, #c93535 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -341,7 +342,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right,#fd6060 0%, #c93535 100%);
+  background: linear-gradient(to right, #fd6060 0%, #c93535 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -399,7 +400,7 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
-  
+
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
@@ -467,7 +468,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: linear-gradient(to right,#fd6060 0%, #c93535 100%);
+  background: linear-gradient(to right, #fd6060 0%, #c93535 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -629,16 +630,12 @@ label {
   margin: auto;
 }
 .social-fot {
-  float: right;
 }
 .displayi {
   align-self: center;
-  display:flex;
-
- 
+  display: flex;
 }
 .ico {
-  padding:10px;
-  
+  padding: 10px;
 }
 /* ----------------------new */
