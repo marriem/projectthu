@@ -6,7 +6,7 @@
             return (
             
             <div className="container navbar-fixed-bottom">
-        <div className=" text-center navbar-dark">
+        <div className=" text-center ">
           <p>
             &copy;2021 TEDxHelwanUniversity. This independent TEDx event is operated under license from TED.{" "}
           </p>
