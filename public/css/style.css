@@ -630,10 +630,10 @@ label {
 }
 .social-fot {
   float: right;
+  flex-direction: row-reverse;
 }
 .displayi {
   align-self: start;
-  padding: 100px;
   display:flex;
 
  
