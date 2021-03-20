@@ -633,7 +633,7 @@ label {
   flex-direction: row-reverse;
 }
 .displayi {
-  align-self: start;
+  align-self: center;
   display:flex;
 
  
