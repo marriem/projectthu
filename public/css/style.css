@@ -632,6 +632,14 @@ label {
   float: right;
 }
 .displayi {
-  display: flex;
+  align-self: start;
+  padding: 100px;
+  display:flex;
+
+ 
+}
+.ico {
+  padding:10px;
+  
 }
 /* ----------------------new */
