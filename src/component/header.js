@@ -1,6 +1,8 @@
 
 import React, { Component } from "react";
 // import {Home, Attend, Team , Watch, Contactus} from "../screens/index";
+import logob from '../logob.png';
+import { Home } from "../screens";
 
 export class Header extends Component {
 
@@ -17,20 +19,11 @@ export class Header extends Component {
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"/>
            
-            <a className="navbar-brand page-scroll" href="./eeece">
-            <span style={{color: "red"}}>TEDx</span>{"   "}
-              <span className="h3">HU</span>
-              <br/><span className="h4"><span class="tedx__info__x">x</span>
-                       = independently organized TED event</span>{" "}
+            <a className=" page-scroll" href={Home}>
+            <img alt="logo" prop="logo" src={logob} style={{width:300,hieght:300,alignSelf:"center",marginTop:10}}/>
             </a>{" "}
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-            <ul className="d-md-none nav navbar-nav navbar-right">
-              <li>
-
-              </li>
-            </ul>
 
 
             <ul className="nav navbar-nav navbar-left">

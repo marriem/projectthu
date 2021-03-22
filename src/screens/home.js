@@ -4,10 +4,11 @@ import {Header, Footer} from '../component/index';
 export class home extends Component {
   render() {
     return (
-        <div>
-<Header/>
-<p class="h3">HOME PAGE
-</p>
+        <div className="container">
+          <div><Header></Header></div>
+<div>
+  <text> HEMMLDLDLFLF</text>
+</div>
 <Footer></Footer>
         </div>
     );
