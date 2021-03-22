@@ -1,11 +1,8 @@
-import './App.css';
-import {Home }from './screens/index';
-
-
+import About from './component/about';
 function App() {
   return (
-    <div className="App">
-      <Home/>
+    <div>
+      <About/>
     </div>
   );
 }
