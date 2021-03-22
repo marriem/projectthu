@@ -5,13 +5,11 @@
           render() {
             return (
             
-            <div className="container navbar-fixed-bottom">
-        <div className=" text-center navbar-dark ">
-          
-          <div className="social-fot container-fluid">
-          <ul className="displayi">
-            <li> </li>
-             <li  className="ico">
+            <div id="footer" className=" navbar-fixed-bottom">
+                 
+          <div>
+          <ul >
+             <li  className="social-fot">
              <p>
             &copy;2021 TEDxHelwanUniversity. This independent TEDx event is operated under license from TED.{" "}
           </p>
@@ -35,7 +33,7 @@
           </ul>
         </div>
         </div>
-      </div>
+    
     
     );
 }

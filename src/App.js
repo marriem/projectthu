@@ -1,8 +1,8 @@
-import About from './component/about';
+import {Team} from './screens/index';
 function App() {
   return (
     <div>
-      <About/>
+     <Team/>
     </div>
   );
 }

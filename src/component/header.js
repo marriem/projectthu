@@ -2,14 +2,14 @@
 import React, { Component } from "react";
 // import {Home, Attend, Team , Watch, Contactus} from "../screens/index";
 import logob from '../logob.png';
-import { Home } from "../screens";
+// import { Home } from "../screens";
 
 export class Header extends Component {
 
   render() {
     
     return (
-      <nav id="menu" className="navbar navbar-default navbar-fixed-top navbar-dark " >
+      <nav id="menu" className="navbar-default navbar-fixed-top navbar-dark " >
         <div className="container">
 
           <div className="navbar-header naaz">
@@ -19,9 +19,8 @@ export class Header extends Component {
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"/>
            
-            <a className=" page-scroll" href={Home}>
-            <img alt="logo" prop="logo" src={logob} style={{width:300,hieght:300,alignSelf:"center",marginTop:10}}/>
-            </a>{" "}
+            <img alt="logo" prop="logo" src={logob} style={{width:250,hieght:250,alignSelf:"center",marginTop:10}}/>
+          {" "}
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 

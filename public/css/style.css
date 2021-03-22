@@ -71,11 +71,13 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
+  
 }
 #menu.navbar-default {
   background-color: rgb(0, 0, 0);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  
 }
 #menu a.navbar-brand {
   width: 100%;
@@ -91,6 +93,8 @@ hr {
   text-align: center;
   margin: auto;
   width: 100%;
+  height: min-content;
+  
 }
 
 #menu.navbar-default .navbar-nav > li > a,button {
@@ -589,17 +593,20 @@ label {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
+  align-content:center;
 }
 /* Footer Section*/
 #footer {
   background: #000000;
-  padding: 30px 0;
-  height: 14%;
+  height: 7%;
+  width: 100%;
+ 
+ 
+  text-align: center;
 }
 #footer p {
   color: rgb(255, 255, 255);
   font-size: 15px;
-  float: left;
 }
 #footer a {
   color: #ffffff;
@@ -629,16 +636,14 @@ label {
   margin: auto;
 }
 .social-fot {
-  float: right;
-}
-.displayi {
-  align-self: center;
-  display:flex;
-
- 
+  padding-bottom: 10px;
+  padding:10px;
+  float: left;
 }
 .ico {
-  padding:10px;
+  padding-bottom: 10px;
+  padding:5px;
+  float:right;
   
 }
 /* ----------------------new */
@@ -647,14 +652,18 @@ label {
 
 /* TED/TEDX/TEDX HELWAN UNIVERSITY/ OUR TEAM */
 
+
 .brief-conatiner{
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: left;
-  display: block;
-  height: 560px;
+  display:grid;
+  height: auto;
   color: #000;
   text-transform: uppercase;
+  margin-top: 10%;
+  flex:auto;
+  flex-direction: row;
 }
 
 .ted-color{
