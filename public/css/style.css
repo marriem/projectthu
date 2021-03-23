@@ -726,7 +726,7 @@ label {
   display: block;
   height: 220px;
   color: #000;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .quote-container .team-head{
