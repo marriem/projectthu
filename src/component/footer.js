@@ -1,19 +1,16 @@
-        import React, { Component } from "react";
+        import React, { Component , Fragment} from "react";
      
 
         export class Footer extends Component {
           render() {
             return (
-            
+              <Fragment>
             <div id="footer" className=" navbar-fixed-bottom">
-                 
-          <div>
-          <ul >
-             <li  className="social-fot">
-             <p>
+            <p className="social-fot">
             &copy;2021 TEDxHelwanUniversity. This independent TEDx event is operated under license from TED.{" "}
-          </p>
-             </li>
+           </p>
+          <div>
+          <ul className="respo">
             <li className="ico">
               <a target="_blank" rel="noreferrer" href={'https://www.linkedin.com/company/tedxhuni/'}
               >
@@ -34,7 +31,7 @@
         </div>
         </div>
     
-    
+</Fragment>    
     );
 }
 }
