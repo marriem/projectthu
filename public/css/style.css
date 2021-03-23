@@ -69,7 +69,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding-bottom: 10px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -91,6 +91,7 @@ hr {
   text-align: center;
   margin: auto;
   width: 100%;
+  height: min-content;
 }
 
 #menu.navbar-default .navbar-nav > li > a,
@@ -590,17 +591,19 @@ label {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
+  align-content: center;
 }
 /* Footer Section*/
 #footer {
   background: #000000;
-  padding: 30px 0;
-  height: 14%;
+  height: 7%;
+  width: 100%;
+
+  text-align: center;
 }
 #footer p {
   color: rgb(255, 255, 255);
   font-size: 15px;
-  float: left;
 }
 #footer a {
   color: #ffffff;
@@ -611,6 +614,10 @@ label {
   border-bottom: 2px solid #ffffff;
 }
 
+.Logo {
+  margin: auto;
+  width: 20%;
+}
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
@@ -624,18 +631,106 @@ label {
   .Logo {
     position: relative;
     bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 175px;
+  }
+  .navbar-toggle {
+    margin-top: 15px;
   }
 }
-.Logo {
-  margin: auto;
-}
 .social-fot {
-}
-.displayi {
-  align-self: center;
-  display: flex;
+  padding-bottom: 10px;
+  padding: 10px;
+  float: left;
 }
 .ico {
-  padding: 10px;
+  padding-bottom: 10px;
+  padding: 5px;
+  float: right;
 }
 /* ----------------------new */
+
+/* about page style made by Mohamed Nasr */
+
+/* TED/TEDX/TEDX HELWAN UNIVERSITY/ OUR TEAM */
+
+.brief-conatiner {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  height: auto;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 10%;
+  flex: auto;
+  flex-direction: row;
+}
+
+.ted-color {
+  color: red;
+  font-weight: 700;
+}
+
+.underline {
+  height: 3px;
+  border-radius: 3px;
+  background-color: red;
+  width: 7%;
+  margin: 12px auto 0 auto;
+  top: -50;
+}
+
+.brief-conatiner h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.arrow {
+  border: solid red;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 6px;
+  margin-right: 5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.brief-conatiner p {
+  text-align: center;
+  line-height: 2.5;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.brief-conatiner .helwan-head {
+  text-align: left;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 35px;
+  line-height: 2.5;
+}
+
+.brief-conatiner .team-head {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.brief-conatiner .quote {
+  text-align: center;
+  color: #7c8081;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 22px;
+}

@@ -1582,8 +1582,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -4199,10 +4199,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
   .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
+    display:contents !important;
+    height:min-content !important;
     padding-bottom: 0;
-    overflow: visible !important;
+    overflow:scroll!important;
   }
   .navbar-collapse.in {
     overflow-y: visible;
@@ -4210,8 +4210,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 1;
+    padding-left: 1;
   }
 }
 .navbar-fixed-top .navbar-collapse,
