@@ -9,6 +9,9 @@ html {
   height: 100% !important;
 
 }
+
+
+
 h2{
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -662,7 +665,6 @@ label {
   font-weight: 700;
 }
 
-
 .underline {
 	height: 3px;
   border-radius: 3px;
@@ -717,11 +719,116 @@ label {
   margin-bottom: 25px;    
 }
 
+.quote-container{
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  display: block;
+  height: 220px;
+  color: #000;
+  text-transform: uppercase;
+}
 
-.brief-conatiner .quote{
+.quote-container .team-head{
+  font-weight: 500; 
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 25px; 
+  color: #000 !important;
+}
+
+.quote-container .quote{
   text-align: center;
   color: #7c8081;
   font-style: italic;
   font-weight: 300;
   font-size: 22px;
+}
+
+
+
+/* New Task team Layout Made By: Mohamed Nasr */
+
+.chairwoman-grid{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: repeat(1, 382px);
+  justify-content: center;
+  color: #000 !important;
+}
+
+.chairwoman-grid .grid-card{
+  text-align: center;
+  height: 550px;
+  display: block;
+}
+
+.chairwoman-grid img{
+  border-radius:50%;
+  height: 228px;
+  width: 228px;
+  box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+-webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+  -moz-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+}
+
+.chairwoman-grid .grid-card .fatma-name{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000 !important;
+}
+
+.chairwoman-grid .grid-card .fatma-title{
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000 !important;
+}
+
+.table-parent{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(5, 350px);
+  justify-content: center;
+  color: #000 !important;
+}
+.table-parent .grid-card{
+  text-align: center;
+  height: 550px;
+  display: block;
+}
+
+.table-parent img{
+  border-radius:50%;
+  height: 228px;
+  width: 228px;
+  box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+-webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+  -moz-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+}
+
+.table-parent .grid-card .head-name{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.table-parent .grid-card .head-title{
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
 }
