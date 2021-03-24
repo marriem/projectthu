@@ -1,8 +1,8 @@
-import {Team} from './screens/index';
+import {Countdown} from './component/index';
 function App() {
   return (
     <div>
-     <Team/>
+     <Countdown/>
     </div>
   );
 }
