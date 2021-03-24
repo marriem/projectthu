@@ -1,7 +1,7 @@
 // import { Memberscount,Countdown } from './component/index';
 import GAListener from './component/GAListener';
 import React from 'react';
-// import componentQueries from 'react-component-queries';
+import componentQueries from 'react-component-queries';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import PageSpinner from './component/spinnerpage';
 
@@ -18,14 +18,14 @@ const Contactus = React.lazy(() => import('./screens/contactus'));
 
 
 const getBasename = () => {
-  return `/${process.env.PUBLIC_URL.split('/home').pop()}`;
+  return `/${process.env.PUBLIC_URL.split('/').pop()}`;
 };
 
 
 class App extends React.Component {
   render() {
   return (
-    <BrowserRouter id="root" basename={getBasename()}>
+    <BrowserRouter basename={getBasename()}>
     <GAListener>
       <Switch>
       <React.Suspense fallback={<PageSpinner />}>
@@ -50,14 +50,36 @@ class App extends React.Component {
             <Route exact path="/input-groups" component={InputGroupPage} />
             <Route exact path="/charts" component={ChartPage} /> */}
 
-        <Redirect to="/" />
+        <Redirect to="/main" />
         </React.Suspense>
       </Switch>
     </GAListener>
   </BrowserRouter>
 );
-}
+          }
+        }
+        const query = ({ width }) => {
+          if (width < 575) {
+            return { breakpoint: 'xs' };
+          }
+        
+          if (576 < width && width < 767) {
+            return { breakpoint: 'sm' };
+          }
+        
+          if (768 < width && width < 991) {
+            return { breakpoint: 'md' };
+          }
+        
+          if (992 < width && width < 1199) {
+            return { breakpoint: 'lg' };
+          }
+        
+          if (width > 1200) {
+            return { breakpoint: 'xl' };
+          }
+        
+          return { breakpoint: 'xs' };
+        };
 
-}
-
-export default App;
+export default componentQueries(query)(App);
