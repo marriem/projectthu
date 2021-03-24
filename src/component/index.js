@@ -11,3 +11,5 @@ export {default as Location} from './location';
 export {default as Memberscount} from './memberscount';
 export {default as Slider} from './slider';
 export {default as Tangraminfo} from './tangraminfo';
+export {default as csc} from './cdc';
+

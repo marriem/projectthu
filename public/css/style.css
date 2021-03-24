@@ -1071,3 +1071,54 @@ label {
 }
 
  /* Abdeldayem end */
+
+/* countdown  yahya */
+.countdown-container {
+  display: block; /*displays divs on a line*/
+  width: 80%; /*gives the div element a width of 300px*/
+  border-radius: 5px; /*curves the edges of the div element by 5px;*/
+  color: #ff0000; /*gives the div element a background color*/
+  margin: 0 auto;
+  padding-top: 235px; 
+}
+.countdown {
+  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+  color: black; /*gives the div element a background color*/
+  font-size: 1000%; 
+  padding: 10px;
+  text-align: center;
+  }
+
+.countdown span {
+  font-weight: bold; /*boldens text in the span element*/
+  margin: 0 auto;
+  text-align: center;
+  color: #ff0000;
+}
+.desc .title {
+  text-align: center;
+  color: black;
+  padding-bottom: 25px; 
+  font-size: 300%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.countdownTitle {
+  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+  font-size: 200%; 
+  color: grey;
+  text-align: center;
+  }
+
+.countdownTitle .countTitle{
+  padding: 10px;
+  margin-right: 13%;
+}
+
+.countdown-container h2{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 200%;
+  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+}
+  
