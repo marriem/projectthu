@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Header , About, Footer} from '../component/index'
+import {Header , About, Footer} from '../component/index';
 
 export class Team extends Component {
   render() {
