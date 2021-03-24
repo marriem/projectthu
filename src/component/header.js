@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import logob from "../logob.png";
+import ReactDOM from "react-dom";
+import {BrowserRouter,Route,Switch} from "react-router-dom";
+import {Attend, Contact, Sponsers, Team, Watch, event1, event2, event3} from "../screens/index" ;
+
 
 export class Navigation extends Component {
   render() {
@@ -31,38 +35,38 @@ export class Navigation extends Component {
 
             <ul className="nav navbar-nav navbar-left">
             <li>
-                <a href="#features" className="page-scroll">
+                <a href="./screens/home.js" className="page-scroll">
                       Home
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
+                <a href="./screens/attend.js" className="page-scroll">
                       Attend
                 </a>
               </li>
               <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b> Watch</a>
+              <a href="./screens/watch.js" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b> Watch</a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header"></li>
-              <li><a href="#">Event 1 </a></li>
-              <li><a href="#">Event 2 </a></li>
-              <li><a href="#">Event 3 </a></li>
+              <li><a href="./screens/event1.js">Event 1 </a></li>
+              <li><a href="./screens/event2.js">Event 2 </a></li>
+              <li><a href="./screens/event3.js">Event 3 </a></li>
               </ul>
             </li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="index.html" className="page-scroll">
-                  About
+                <a href="./screens/team.js" className="page-scroll">
+                  team
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
+                <a href="./screens/sponsers.js" className="page-scroll">
                 Sponsors
                 </a>
               </li>
               <li>
-                <a href="#contact" className="page-scroll">
+                <a href="./screens/contactus.js" className="page-scroll">
                 Contact us 
                 </a>
               </li>
