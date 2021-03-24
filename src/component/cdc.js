@@ -23,38 +23,26 @@ if (value > inSeconds) {
 
 //sets seconds
 const setSeconds = (s) => {
-    if (s>=10)
 document.querySelector("#seconds").textContent = s;
-else 
-document.querySelector("#seconds").textContent = "0" +s;
 
 };
 
 //sets minutes
 const setMinutes = (m) => {
-    if (m>=10)
 document.querySelector("#minutes").textContent = m ;
-else
-document.querySelector("#minutes").textContent ="0"+ m ;
+
 
 };
 
 //sets hours
 const setHours = (h) => {
-    if(h>=10)
 document.querySelector("#hours").textContent = h;
-else
-document.querySelector("#minutes").textContent ="0"+ h ;
 
 };
 
 //sets Days
 const setDays = (d) => {
-    if (d>=10) 
 document.querySelector("#days").textContent = d;
- else
- document.querySelector("#days").textContent = d;
-
 };
 
 // Update the count down every 1 second

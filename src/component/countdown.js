@@ -8,18 +8,36 @@ export class Countdown extends Component {
 <div class="countdown-container">
     <script src="cdc.js"></script>
 <Header/>
-            <div class="desc">
-            
-
-                <script src='../component/index'></script>
+<div class="desc">
                 <h1 class="title">Tangram Event </h1>
             </div>
             <div class="countdown">
-                <span id="days">00</span> : <span id="hours">00 </span> : <span id="minutes">00</span > : <span id="seconds">00</span>
+                <div class="sections">
+                    <span id="days">0</span>
+                    <span  class="unit">Days</span>
+                </div> 
+                <text id='f'>:</text>
+                <div class="sections" id="hs">
+                    <span id="hours">0</span>
+                    <span  class="unit">Hours</span>
+                </div> 
+                <text id="s">:</text>
+                <div id="mid">
+                <div class="sections">
+                    <span id="minutes">0</span> 
+                    <span   class="unit" >Minutes</span>
+                </div>
+                <text id="t">:</text>
+                <div class="sections">
+                    <span id="seconds">0</span>
+                    <span class="unit">Seconds</span>
+                </div>
+            </div>
+                
             </div>
             <div class="countdownTitle">
-                <span class="countTitle">Days</span>  <span  class="countTitle">Hours</span > 
-                    <span  class="countTitle">Minutes</span>  <span  >Seconds</span>
+                  
+                     
             </div>
             <h2>Left</h2>
         
