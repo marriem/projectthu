@@ -66,7 +66,7 @@ if (totalSeconds <= 0) {
 setDays(convert(tempSeconds, 24 * 60 * 60));
 setHours(convert(tempSeconds, 60 * 60));
 setMinutes(convert(tempSeconds, 60));
-setSeconds(tempSeconds == 60 ? 59 : tempSeconds);
+setSeconds(tempSeconds === 60 ? 59 : tempSeconds);
 totalSeconds--;
 tempSeconds = totalSeconds;
 }, 1000);

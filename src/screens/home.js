@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import {Header, Slider, Footer} from '../component/index';
-import {Link } from "react-router-dom";
+import {Header, Slider, Footer, Countdown} from '../component/index';
 
 export class home extends Component {
   render() {
@@ -8,6 +7,7 @@ export class home extends Component {
         <div >
           <Header/>
           <Slider/>
+          <Countdown/>
           <Footer/>
           
             </div>

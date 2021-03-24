@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import logob from "../logob.png";
-import ReactDOM from "react-dom";
-import {BrowserRouter,Route,Switch} from "react-router-dom";
-import {Attend, Contact, Sponsers, Team, Watch, event1, event2, event3} from "../screens/index" ;
-
+import {Link } from "react-router-dom";
 
 export class Navigation extends Component {
   render() {
@@ -35,40 +32,47 @@ export class Navigation extends Component {
 
             <ul className="nav navbar-nav navbar-left">
             <li>
+            <Link to="/Home">
                 <a href="./screens/home.js" className="page-scroll">
                       Home
                 </a>
+                </Link>
               </li>
               <li>
+              <Link to="/attend">
                 <a href="./screens/attend.js" className="page-scroll">
                       Attend
                 </a>
+                </Link>
               </li>
               <li class="dropdown">
               <a href="./screens/watch.js" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b> Watch</a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header"></li>
-              <li><a href="./screens/event1.js">Event 1 </a></li>
-              <li><a href="./screens/event2.js">Event 2 </a></li>
-              <li><a href="./screens/event3.js">Event 3 </a></li>
+              <li><Link to="/event1"><a href="./screens/event1.js">Event 1 </a></Link></li>
+              <li><Link to="/event2"><a href="./screens/event2.js">Event 2 </a></Link></li>
+              <li><Link to="/event3"><a href="./screens/event3.js">Event 3 </a></Link></li>
               </ul>
             </li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
               <li>
+              <Link to="/team">
                 <a href="./screens/team.js" className="page-scroll">
                   team
-                </a>
+                </a></Link>
               </li>
               <li>
+              <Link to="/sponsers">
                 <a href="./screens/sponsers.js" className="page-scroll">
                 Sponsors
-                </a>
+                </a></Link>
               </li>
               <li>
+              <Link to="/contactus">
                 <a href="./screens/contactus.js" className="page-scroll">
                 Contact us 
-                </a>
+                </a></Link>
               </li>
             </ul>
 
