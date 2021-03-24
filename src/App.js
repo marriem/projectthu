@@ -1,8 +1,9 @@
+import { Memberscount } from './component/index';
 import {Team} from './screens/index';
 function App() {
   return (
     <div>
-     <Team/>
+     <Memberscount/>
     </div>
   );
 }

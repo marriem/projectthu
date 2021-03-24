@@ -1046,3 +1046,28 @@ label {
 
   /* end ibtissam buttons */
 
+
+ /* Abdeldayem start  */
+
+ 
+.grid-holder{
+  background-color: rgb(255, 0, 0);
+  height: 500px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4,15%);
+  align-content: center;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
+  margin-top: 40px;
+  font-size: larger;
+
+
+}
+.gridbox{
+  height: 250px;
+  border: 2px solid #fff;
+}
+
+ /* Abdeldayem end */
