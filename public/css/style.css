@@ -99,7 +99,7 @@ hr {
   height: min-content;
 }
 
-#menu.navbar-default .navbar-nav > li > a,
+#menu.navbar-default .navbar-nav > li > a,Link,
 button {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -608,12 +608,12 @@ label {
   color: rgb(255, 255, 255);
   font-size: 15px;
 }
-#footer a {
+#footer a,Link {
   color: #ffffff;
   padding: 6px;
   margin: 5px;
 }
-#footer a:hover {
+#footer a:hover,Link:hover {
   border-bottom: 2px solid #ffffff;
 }
 
@@ -1295,9 +1295,10 @@ color: #3b4046;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 44px;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
     justify-content: center;
+    float: left;
 
 }
 
@@ -1309,14 +1310,14 @@ color: #3b4046;
  font-size: 18px;
 
 }
-/* 
+
 .hover-border{
   color: red;
 }
 .formdiv.hover{
 
   border-color: red;
-} */
+}
 
 button {
  

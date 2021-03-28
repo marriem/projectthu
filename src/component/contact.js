@@ -5,11 +5,11 @@ export class contact extends Component {
 
   
   render() {
-    alert("this form not available now")
+   //  alert("this form not available now")
     
     return (
-      <div class="col-md-6">
-      <form class="form " action="#">
+      <div class="container">
+      <form class="form" action="#">
        
            <div class="formdiv">
               <h2> Contact Us </h2>
@@ -42,8 +42,9 @@ export class contact extends Component {
            </div>
         
      </form>
-     <br></br>
-     <br></br>
+     <div class="sections">
+    <img  alt=" contact us" src="img\clipart-phone-black-and-white-9.png" style={{width:400,height:400,align:'center',padding:10,margintop:30}}/>
+    </div>
   </div>
 
     );
