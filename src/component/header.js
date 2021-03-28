@@ -32,47 +32,62 @@ export class Navigation extends Component {
 
             <ul className="nav navbar-nav navbar-left">
             <li>
-            <Link to="/Home">
+            {/* <Link to="/Home"> */}
                 <a href="./screens/home.js" className="page-scroll">
                       Home
                 </a>
-                </Link>
+                {/* </Link> */}
               </li>
               <li>
-              <Link to="/attend">
+              {/* <Link to="/attend"> */}
                 <a href="./screens/attend.js" className="page-scroll">
                       Attend
                 </a>
-                </Link>
+                {/* </Link> */}
               </li>
               <li class="dropdown">
               <a href="./screens/watch.js" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b> Watch</a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header"></li>
-              <li><Link to="/event1"><a href="./screens/event1.js">Event 1 </a></Link></li>
-              <li><Link to="/event2"><a href="./screens/event2.js">Event 2 </a></Link></li>
-              <li><Link to="/event3"><a href="./screens/event3.js">Event 3 </a></Link></li>
+              <li>
+                {/* <Link to="/event1"> */}
+                  <a href="./screens/event1.js">Event 1 </a>
+                  {/* </Link> */}
+                  </li>
+              <li>
+                {/* <Link to="/event2"> */}
+                  <a href="./screens/event2.js">Event 2 </a>
+                  {/* </Link> */}
+                  </li>
+              <li>
+                {/* <Link to="/event3"> */}
+                  <a href="./screens/event3.js">Event 3 </a>
+                  {/* </Link> */}
+                  </li>
               </ul>
             </li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
               <li>
-              <Link to="/team">
+              {/* <Link to="/team"> */}
                 <a href="./screens/team.js" className="page-scroll">
                   team
-                </a></Link>
+                </a>
+                {/* </Link> */}
               </li>
               <li>
-              <Link to="/sponsers">
+              {/* <Link to="/sponsers"> */}
                 <a href="./screens/sponsers.js" className="page-scroll">
                 Sponsors
-                </a></Link>
+                </a>
+                {/* </Link> */}
               </li>
               <li>
-              <Link to="/contactus">
+              {/* <Link to="/contactus"> */}
                 <a href="./screens/contactus.js" className="page-scroll">
                 Contact us 
-                </a></Link>
+                </a>
+                {/* </Link> */}
               </li>
             </ul>
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Header, Slider, Footer, Countdown} from '../component/index';
+import { Slider, Countdown,Header } from '../component/index';
 
 export class home extends Component {
   render() {
@@ -8,8 +8,7 @@ export class home extends Component {
           <Header/>
           <Slider/>
           <Countdown/>
-          <Footer/>
-          
+        
             </div>
     );
 }

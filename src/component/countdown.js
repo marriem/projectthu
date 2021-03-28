@@ -7,7 +7,7 @@ export class Countdown extends Component {
     
     return (
 <div class="countdown-container">
-    <script src="cdc.js"></script>
+    <script src="cdc"></script>
 <Header/>
 <div class="desc">
                 <h1 class="title">Tangram Event </h1>

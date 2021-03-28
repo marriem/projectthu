@@ -5,9 +5,9 @@ export class Team extends Component {
   render() {
     return (
         <div className="container" >
-<Header/>
+{/* <Header/> */}
 <About/>
-<Footer/>
+{/* <Footer/> */}
         </div>
     );
 }
